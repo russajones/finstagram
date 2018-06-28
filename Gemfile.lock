@@ -15,13 +15,18 @@ GEM
     arel (9.0.0)
     backports (3.11.3)
     bond (0.5.1)
+    coderay (1.1.2)
     concurrent-ruby (1.0.5)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
+    method_source (0.9.0)
     minitest (5.11.3)
     multi_json (1.13.1)
     mustermann (1.0.2)
     pg (1.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     puma (3.11.4)
     rack (2.0.5)
     rack-protection (2.0.1)
@@ -76,6 +81,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   pg
+  pry
   puma
   rails_12factor
   rake

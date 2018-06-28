@@ -13,7 +13,7 @@ gem 'sinatra-activerecord'
 
 gem 'puma'
 gem 'tux'
-
+gem 'pry'
 group :development, :test do
   gem 'shotgun'
   gem 'sqlite3'
