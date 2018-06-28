@@ -1,0 +1,27 @@
+header {
+    background-color: #244251;
+    color: #E8FDFF;
+}
+body {
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Butterfly Kids', cursive;
+    background-color: whitesmoke;
+}
+main {
+    background-color: white;
+    padding: 16px
+}
+.finstagram-post {
+    margin-bottom: 48px;
+}
+.finstagram-post .user-info img {
+    border-radius: 50%;
+}
+a.photo{
+    transition: padding 0.5s;
+}
+a.photo:hover{
+    padding: 10px;
+}
